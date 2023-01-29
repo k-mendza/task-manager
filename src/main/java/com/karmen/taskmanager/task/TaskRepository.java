@@ -1,2 +1,6 @@
-package com.karmen.taskmanager.task;public class TaskRepository {
+package com.karmen.taskmanager.task;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface TaskRepository extends CrudRepository<Task, Long> {
 }
